@@ -1,6 +1,18 @@
 #=========================================================================
 # tut08-sort
 #=========================================================================
+# These are the steps required to generate the Verilog and
+# corresponding Verilog test benches.
+#
+#  % mkdir -p $TOPIDR/sim/build
+#  % cd $TOPIDR/sim/build
+#  % pytest ../tut3_verilog/sort/test --test-verilog --dump-vtb
+#
+#  % ../tut3_verilog/sort/sort-sim --impl rtl-struct --input random \
+#      --stats --translate --dump-vtb
+#  % ../tut3_verilog/sort/sort-sim --impl rtl-struct --input zeros \
+#      --stats --translate --dump-vtb
+#
 
 #-------------------------------------------------------------------------
 # steps

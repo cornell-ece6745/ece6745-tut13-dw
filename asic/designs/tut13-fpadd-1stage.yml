@@ -1,6 +1,13 @@
 #=========================================================================
 # tut13-fpadd-1stage
 #=========================================================================
+# These are the steps required to generate the Verilog and
+# corresponding Verilog test benches.
+#
+#  % mkdir -p $TOPIDR/sim/build
+#  % cd $TOPIDR/sim/build
+#  % pytest ../tut13_dw/test/FPAdd1stage_test.py --test-verilog --dump-vtb
+#
 
 #-------------------------------------------------------------------------
 # steps
